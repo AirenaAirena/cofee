@@ -1,0 +1,108 @@
+                                                                                        /*==========  Desktop First Method  ==========*/
+                                                                                        /* Large Devices, Wide Screens */
+                                                                                        
+                                                                                        @media only screen and (max-width: 1200px) {
+                                                                                            header .toggle-mnu {
+                                                                                                display: none;
+                                                                                            }
+                                                                                        }
+                                                                                        
+                                                                                        @media only screen and (max-width: 1024px) {
+                                                                                            header .toggle-mnu {
+                                                                                                display: block;
+                                                                                            }
+                                                                                            .big-menu {
+                                                                                                display: none;
+                                                                                            }
+                                                                                            header nav.menu {
+                                                                                                position: absolute;
+                                                                                                background-color: green;
+                                                                                                min-height: 200px;
+                                                                                                width: 300px;
+                                                                                                right: 3%;
+                                                                                                top: 160px;
+                                                                                                z-index: 10;
+                                                                                                overflow: hidden;
+                                                                                            }
+                                                                                            nav .menu-list {
+                                                                                                flex-direction: column;
+                                                                                            }
+                                                                                            .header-top li+li::after {
+                                                                                                content: "";
+                                                                                            }
+                                                                                            nav .menu-list li {
+                                                                                                width: 100%;
+                                                                                            }
+                                                                                            .header-top a>img {
+                                                                                                margin-top: 0;
+                                                                                            }
+                                                                                            .menu li span {
+                                                                                                padding-top: 10px;
+                                                                                                margin-left: 10px;
+                                                                                            }
+                                                                                            .history-facts {
+                                                                                                flex-wrap: wrap;
+                                                                                            }
+                                                                                            .history-content {
+                                                                                                margin-top: 20px;
+                                                                                            }
+                                                                                            .blog-content {
+                                                                                                flex-wrap: wrap;
+                                                                                            }
+                                                                                            .blog-item+.blog-item {
+                                                                                                margin-top: 10px;
+                                                                                            }
+                                                                                            .contact-wrapper {
+                                                                                                flex-wrap: wrap;
+                                                                                            }
+                                                                                            .footer-menu .menu-list li+li:after {
+                                                                                                content: "";
+                                                                                            }
+                                                                                        }
+                                                                                        /* Medium Devices, Desktops */
+                                                                                        
+                                                                                        @media only screen and (max-width: 992px) {}
+                                                                                        /* Small Devices, Tablets */
+                                                                                        
+                                                                                        @media only screen and (max-width: 768px) {
+                                                                                            .history-facts,
+                                                                                            .history-content {
+                                                                                                margin-left: 0;
+                                                                                            }
+                                                                                            .header-content-bottom {
+                                                                                                flex-wrap: wrap;
+                                                                                            }
+                                                                                            .header-content-bottom .item+.item {
+                                                                                                margin-left: 0;
+                                                                                            }
+                                                                                            .history-facts .history {
+                                                                                                margin-left: 0;
+                                                                                            }
+                                                                                            .menu-item img {
+                                                                                                margin: 16px auto;
+                                                                                            }
+                                                                                            .tabs-wrapper ul {
+                                                                                                flex-wrap: wrap;
+                                                                                                justify-content: center;
+                                                                                            }
+                                                                                            .tabs-wrapper ul li {
+                                                                                                margin-top: 30px;
+                                                                                            }
+                                                                                        }
+                                                                                        /* Extra Small Devices, Phones */
+                                                                                        
+                                                                                        @media only screen and (max-width: 480px) {
+                                                                                            .history-btn {
+                                                                                                padding-left: 14px;
+                                                                                                padding-right: 14px;
+                                                                                            }
+                                                                                            .blog-item p::after {
+                                                                                                right: 10px;
+                                                                                            }
+                                                                                            .blog-item p {
+                                                                                                font-size: 16px;
+                                                                                            }
+                                                                                        }
+                                                                                        /* Custom, iPhone Retina */
+                                                                                        
+                                                                                        @media only screen and (max-width: 320px) {}
